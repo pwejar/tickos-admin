@@ -1,27 +1,17 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+#container{
+  padding: 5vw;
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.notVerif{
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.title{
+  display: flex;
+  justify-content: space-between;
 }
-
-#container a {
-  text-decoration: none;
+.redis{
+  background-color: red;
 }
